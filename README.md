@@ -37,8 +37,10 @@ Notes on the input CSV files:
 Usage
 --------------
 - The running script:
-1. SetNetAndLoc_run.sh  (Unix/Linux)
-2. SetNetAndLoc_run.bat  (Windows)
+
+SetNetAndLoc_run.sh  (Unix/Linux)
+
+SetNetAndLoc_run.bat  (Windows)
 
 - Command Line (Recommended), taking Windows for example:
 
