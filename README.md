@@ -41,9 +41,11 @@ The running script:
 - SetNetAndLoc_run.bat  (Windows)
 
 * Command Line (Recommended), taking Windows for example:
-	./SetNetAndLoc_run.sh --context_param FA_USER_NAME=FA_admin --context_param FA_PASSWORD=admin1234 --context_param FA_DOMAIN_NAME=fa.calix.com --context_param LOC_CSV_FILE=/root/csv/Location.csv --context_param MyNetwork_CSV_FILE=/root/csv/Network.csv
+
+./SetNetAndLoc_run.sh --context_param FA_USER_NAME=FA_admin --context_param FA_PASSWORD=admin1234 --context_param FA_DOMAIN_NAME=fa.calix.com --context_param LOC_CSV_FILE=/root/csv/Location.csv --context_param MyNetwork_CSV_FILE=/root/csv/Network.csv
 
 Note that every parameter in command line requires the token --context_param.
 
 * Configuration file
+
 All of configurations can be pre-set in the property file - Default.properties: SetNetAndLoc_<Version>/SetNetAndLoc/test/setnetandloc_<Version>/contexts/Default.properties, then just concisely run the script without any parameter
