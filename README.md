@@ -8,7 +8,7 @@ Programmatically update MyNetwork and Location definition of FA.
 General
 --------------
 - It can run on Windows and Linux OS;
-- The client API must run at JDK/JRE 1.5 or above;
+- The client API must run at JDK/JRE 1.7 or above;
 - It is a standalone command-line client application, independence of FA GUI (jars);
 - It simulates FA GUI to send the MyNetwork and Location setting requests to FA server. So it can run remotely, not limited on the target FA host;
 - No need restart FA server after run it;
@@ -47,6 +47,7 @@ SetNetAndLoc_run.bat  (Windows)
 `./SetNetAndLoc_run.sh --context_param FA_USER_NAME=FA_admin --context_param FA_PASSWORD=admin1234 --context_param FA_DOMAIN_NAME=fa.calix.com --context_param LOC_CSV_FILE=/root/csv/Location.csv --context_param MyNetwork_CSV_FILE=/root/csv/Network.csv`
 
 Note that every parameter in command line requires the token --context_param.
+
 
 - Configuration file
 
